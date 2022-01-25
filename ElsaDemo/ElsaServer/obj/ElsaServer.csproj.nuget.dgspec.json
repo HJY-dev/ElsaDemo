@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Github项目\\ElsaDemo\\ElsaDemo\\ElsaServer\\ElsaServer.csproj": {}
+  },
+  "projects": {
+    "D:\\Github项目\\ElsaDemo\\ElsaDemo\\ElsaServer\\ElsaServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github项目\\ElsaDemo\\ElsaDemo\\ElsaServer\\ElsaServer.csproj",
+        "projectName": "ElsaServer",
+        "projectPath": "D:\\Github项目\\ElsaDemo\\ElsaDemo\\ElsaServer\\ElsaServer.csproj",
+        "packagesPath": "C:\\Users\\app\\.nuget\\packages\\",
+        "outputPath": "D:\\Github项目\\ElsaDemo\\ElsaDemo\\ElsaServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\app\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nex.qechacha.com/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Elsa": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Elsa.Activities.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Elsa.Activities.Temporal.Quartz": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Elsa.Designer.Components.Web": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Elsa.Persistence.EntityFramework.PostgreSql": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Elsa.Server.Api": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
